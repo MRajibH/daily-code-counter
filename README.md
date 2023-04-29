@@ -1,1 +1,1 @@
-# daily-code-counter
+# daily-code-counter A VS code Extention
