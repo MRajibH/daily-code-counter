@@ -1,71 +1,50 @@
-# daily-code-counter README
+# Daily Code Counter
 
-This is the README for your extension "daily-code-counter". After writing up a brief description, we recommend including the following sections.
+Welcome to Daily Code Counter! This extension tracks how many lines of code you write per day and provides you with a daily history of your progress. Keep yourself motivated and productive by challenging yourself to write more code every day.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- Track the number of lines of code you write per day.
+- View your daily line count history in a beautifully designed dashboard.
+- Set a daily line count goal and monitor your progress.
+- Customize the appearance of the dashboard with different color schemes.
 
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+![Daily Code Counter Dashboard](media/screenshot.png)
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+Daily Code Counter requires Node.js and npm to be installed on your computer.
 
 ## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
 This extension contributes the following settings:
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+- `daily-code-counter.goal`: Set your daily line count goal.
+- `daily-code-counter.colorscheme`: Choose a color scheme for the dashboard.
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+There are no known issues at this time.
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
-
 ### 1.0.0
 
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
+Initial release of Daily Code Counter.
 
 ### 1.1.0
 
-Added features X, Y, and Z.
+Added the ability to set a daily line count goal.
 
----
+### 1.2.0
 
-## Following extension guidelines
+Added the ability to customize the appearance of the dashboard with different color schemes.
 
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
+## Feedback and Contributing
 
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
+If you encounter any bugs or have suggestions for new features, please submit an issue on the [GitHub repository](https://github.com/yourusername/daily-code-counter). Pull requests are welcome!
 
-## Working with Markdown
+## License
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+This extension is licensed under the [MIT License](LICENSE).
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
